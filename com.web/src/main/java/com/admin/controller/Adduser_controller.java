@@ -24,6 +24,7 @@ public class Adduser_controller {
 	public String view_user(Model model) {
 		System.out.println("controller");
 		Users users = new Users();
+		System.out.println("git");
 		model.addAttribute("Users", users);
 		return "Viewuser";
 	}
